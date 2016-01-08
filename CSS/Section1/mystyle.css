@@ -1,0 +1,14 @@
+/* mystyle.css */
+
+
+h1 {
+	color: skyblue;
+}
+
+#first {
+	color: red;
+}
+
+.second {
+	background-color: #ddd;
+}

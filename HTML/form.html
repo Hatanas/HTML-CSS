@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<title>HTML&CSS講座</title>
+</head>
+
+<body>
+	<h1>フォーム</h1>
+
+	<form action="mail.php" method="post" accept-charset="utf-8">
+
+		<p><label>名前:<input type="text" name="name" size="40"></label></p>
+
+		<p><label>年齢:
+			<select name="age">
+				<option value="u-20">20歳未満</option>
+				<option value="20">20代</option>
+				<option value="30">30代</option>
+				<option value="40">40代</option>
+				<option value="50">50代</option>
+				<option value="o-60">60歳以上</option>
+			</select>
+		</label></p>
+
+		<fieldset>
+			<legend>血液型</legend>
+			<p><label><input type="radio" name="blood" value="a">A</label></p>
+			<p><label><input type="radio" name="blood" value="b">B</label></p>
+			<p><label><input type="radio" name="blood" value="o">O</label></p>
+			<p><label><input type="radio" name="blood" value="ab">AB</label></p>
+		</fieldset>
+
+		<p><input type="submit" value="送信する"></p>
+	</form>
+</body>
+
+</html>

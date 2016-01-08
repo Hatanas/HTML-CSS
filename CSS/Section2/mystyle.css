@@ -1,0 +1,18 @@
+/* mystyle.css */
+
+
+h1, p {
+	color: skyblue;
+}
+
+h2.second {
+	color: pink;
+}
+
+div span {
+	color: orange;
+}
+
+div > span {
+	color: lightgreen;
+}

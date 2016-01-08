@@ -1,0 +1,26 @@
+/* mystyle.css */
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	width: 200px;
+	height: 100px;
+}
+
+#box1 {
+	background-color: orange;
+	margin-bottom: 30px;
+}
+
+#box2 {
+	background-color: skyblue;
+	margin: 30px;
+}
+
+#box3 {
+	background-color: lightgreen;
+}

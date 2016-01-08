@@ -1,0 +1,25 @@
+/* mystyle.css */
+
+
+section {
+	margin: 0 auto;
+	width: 500px;
+	border: solid 1px #555;
+}
+
+p {
+	border: solid 1px #555;
+}
+
+img {
+	border: solid 1px #555;
+	float: right;
+}
+
+.first {
+	margin-right: 120px;
+}
+
+p.second {
+	clear: right;
+}

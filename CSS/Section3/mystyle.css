@@ -1,0 +1,18 @@
+/* mystyle.css */
+
+
+a:link {
+	color: skyblue;
+}
+
+a:visited {
+	color: pink;
+}
+
+a:hover {
+	background-color: #ccc;
+}
+
+h1:first-letter {
+	font-size: 40pt;
+}
